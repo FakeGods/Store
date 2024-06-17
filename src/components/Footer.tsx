@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function App() {
   return (
     <footer className="bg-neutral-200 text-center text-white dark:bg-neutral-600">
