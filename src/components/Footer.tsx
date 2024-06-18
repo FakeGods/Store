@@ -6,7 +6,7 @@ export default function App() {
       <div className="container"></div>
 
       {/* <!--Copyright section--> */}
-      <div className="bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
+      <div className="bg-neutral-300 p-6 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
         © {yearNow} Copyright
         <div className="flex justify-center">
           <a className="ml-9 mr-9 text-neutral-800 dark:text-neutral-200">
