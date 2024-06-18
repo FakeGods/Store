@@ -3,9 +3,13 @@ const yearNow = new Date().getFullYear();
 export default function App() {
   return (
     <footer className="bg-neutral-200 text-center text-white dark:bg-neutral-600">
-      <div className="container pt-9">
-        <div className="mb-9 flex justify-center">
-          <a className="mr-9 text-neutral-800 dark:text-neutral-200">
+      <div className="container"></div>
+
+      {/* <!--Copyright section--> */}
+      <div className="bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
+        © {yearNow} Copyright
+        <div className="flex justify-center">
+          <a className="ml-9 mr-9 text-neutral-800 dark:text-neutral-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4"
@@ -70,11 +74,6 @@ export default function App() {
             </svg>
           </a>
         </div>
-      </div>
-
-      {/* <!--Copyright section--> */}
-      <div className="bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
-        © {yearNow} Copyrights
       </div>
     </footer>
   );
