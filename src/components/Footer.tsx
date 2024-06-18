@@ -74,7 +74,7 @@ export default function App() {
 
       {/* <!--Copyright section--> */}
       <div className="bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
-        © {yearNow} Copyright
+        © {yearNow} Copyrights
       </div>
     </footer>
   );
