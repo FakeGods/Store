@@ -16,8 +16,8 @@ const Nav = () => {
           </a>
         </div>
         <div className="relative flex items-center pl-4">
-          <a href="#about" className="text-black text-decoration-none">
-            About
+          <a href="#Shop" className="text-black text-decoration-none">
+            Shop
           </a>
         </div>
       </div>
