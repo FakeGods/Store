@@ -20,11 +20,6 @@ const Nav = () => {
             About
           </a>
         </div>
-        <div className="relative flex items-center pl-4">
-          <a href="#projects" className="text-black text-decoration-none">
-            Projects
-          </a>
-        </div>
       </div>
     </nav>
   );
